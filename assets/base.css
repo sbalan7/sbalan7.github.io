@@ -62,12 +62,18 @@ body {
   justify-content: center;
 }
 
+.roof-navbar ul {
+  justify-content: center;
+}
+
 .roof-navbar a {
   color: cornflowerblue;
+  text-decoration: none;
 }
 
 .roof-navbar a:visited {
-color: cornflowerblue;
+  color: cornflowerblue;
+  text-decoration: none;
 }
 
 .roof-navbar a:hover {

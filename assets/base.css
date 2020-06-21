@@ -1,4 +1,12 @@
+// Variables
+$red: #ad0000;
 
+// Placeholder selectors
+%transition {
+  transition: all .25s;
+}
+
+/*=Typography=*/
 
 html {
   font-size: 16px;
@@ -129,7 +137,7 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url() no-repeat center center;
+  background: url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg) no-repeat center center;
   background-size: cover;
 
   &:after {

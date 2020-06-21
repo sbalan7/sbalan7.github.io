@@ -140,7 +140,8 @@ hr {
   position: relative;
   height: 560px;
   background: url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg) no-repeat center center;
-  background-size: cover;
+  background-size: contain;
+  z-index: -100;
 }
 
 footer {

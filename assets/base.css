@@ -59,6 +59,20 @@ body {
   background-color: black;
   color: cornflowerblue;
   height: 40px;
+  justify-content: center;
+}
+
+.roof-navbar a {
+  color: cornflowerblue;
+}
+
+.roof-navbar a:visited {
+color: cornflowerblue;
+}
+
+.roof-navbar a:hover {
+  background-color: darkblue;
+  color: powderblue;
 }
 
 li {
@@ -108,16 +122,12 @@ ul {
 }
 
 .wrapper {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 hr {
   margin-bottom: 3em;
   width: 7%;
-}
-
-.navbar-default {
-  background: #fff;
 }
 
 .sec-main {

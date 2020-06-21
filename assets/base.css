@@ -58,6 +58,7 @@ body {
   overflow: hidden;
   background-color: black;
   color: cornflowerblue;
+  height: 40px;
 }
 
 li {
@@ -104,6 +105,10 @@ ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.wrapper {
+  margin-top: 40px;
 }
 
 hr {

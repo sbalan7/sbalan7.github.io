@@ -68,11 +68,10 @@ p {
 .sec-about a:hover {
   text-decoration: none;
   color: white;
-  background-color: black;
+  background-color: lightgray;
 }
 
-.sec-about a:visited {
-  text-decoration: underline;
+a:visited {
   color: black;
 }
 

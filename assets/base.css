@@ -51,6 +51,15 @@ body {
   text-transform: uppercase;
 }
 
+.roof-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  color: cornflowerblue;
+}
+
 li {
   display: inline;
 }
@@ -71,8 +80,16 @@ p {
   background-color: lightgray;
 }
 
-a:visited {
+.sec-about a:visited {
   color: black;
+}
+
+.soc-media-ul a{
+  color :white;
+}
+
+.soc-media-ul a:visited{
+  color: white;
 }
 
 section {

@@ -69,6 +69,9 @@ body {
 .roof-navbar a {
   color: cornflowerblue;
   text-decoration: none;
+  text-align: center;
+  display: block;
+  float: center;
 }
 
 .roof-navbar a:visited {
@@ -139,6 +142,7 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
+  width: 100%;
   background: url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg) no-repeat center center;
   background-size: contain;
   z-index: -100;

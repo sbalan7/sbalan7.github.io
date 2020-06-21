@@ -51,6 +51,18 @@ p {
 
 .sec-about a {
   text-decoration: underline;
+  color: black;
+}
+
+.sec-about a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.sec-about a:visited {
+  text-decoration: underline;
+  color: black;
 }
 
 section {

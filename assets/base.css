@@ -18,7 +18,7 @@ body {
 }
 
 .navbar .fa-external-link {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .main-heading {
@@ -117,6 +117,7 @@ p {
 
 .soc-media-ul a{
   color :white;
+  padding: 0px 5px 0px 5px;
 }
 
 .soc-media-ul a:visited{
@@ -148,7 +149,6 @@ hr {
 
 .sec-main {
   position: relative;
-  height: 560px;
   width: 100%;
   background: url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg) no-repeat center center;
   z-index: -100;

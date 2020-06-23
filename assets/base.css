@@ -140,10 +140,10 @@ p {
   padding: 3px 0px 3px 0px;
 }
 
-.contact-heading li {
+.contact-heading {
   font-size: 15px;
   font-weight: bold;
-  padding: 8px 0px 4px 0px;
+  margin: 8px 0px 4px 0px;
 }
 
 .sec-contact a {

@@ -73,6 +73,10 @@ body {
   display: flex;
 }
 
+.roof-navbar li {
+  display: inline;
+}
+
 .roof-navbar a {
   color: cornflowerblue;
   text-decoration: none;
@@ -90,10 +94,6 @@ body {
 .roof-navbar a:hover {
   background-color: darkblue;
   color: powderblue;
-}
-
-li {
-  display: inline;
 }
 
 p {
@@ -160,6 +160,10 @@ p {
 
 .sec-contact a:visited {
   color: black;
+}
+
+.soc-media-ul li {
+  display: inline;
 }
 
 .soc-media-ul a {

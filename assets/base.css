@@ -44,6 +44,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+  bottom: 0;
 }
 
 .container > h1 {
@@ -129,6 +130,7 @@ p {
   align-self: center;
   align-content: center;
   text-align: center;
+  list-style: inside;
 }
 
 .sec-contact li {
@@ -137,7 +139,7 @@ p {
   text-align: center;
 }
 
-.contact-heading{
+.contact-heading {
   font-size: 15px;
   font-weight: bold;
 }
@@ -157,14 +159,14 @@ p {
   color: black;
 }
 
-.soc-media-ul a{
+.soc-media-ul a {
   color :white;
   padding: 0px 5px 0px 5px;
   font-size: 15px;
   text-decoration: none;
 }
 
-.soc-media-ul a:visited{
+.soc-media-ul a:visited {
   color: white;
   text-decoration: none;
 }
@@ -204,4 +206,5 @@ hr {
 footer {
   background: #000;
   width: 100%;
+  bottom: 0;
 }

@@ -116,10 +116,13 @@ p {
 
 .sec-contact ul {
   display: block;
+  align-self: center;
+  align-content: center;
 }
 
 .sec-contact li {
   display: block;
+  align-content: center;
 }
 
 .contact-heading{

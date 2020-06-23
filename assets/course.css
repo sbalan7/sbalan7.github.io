@@ -13,10 +13,12 @@
     font-size: 18px;
     font-weight: 500;
     padding: 5px 0px 5px 0px;
+    display: block;
  }
 
  .inner-courses-list li {
     font-size: 16px;
     font-weight: 400;
     margin: 3px 0px 3px 0px;
+    display: block;
  }

@@ -123,6 +123,21 @@ p {
   font-weight: bold;
 }
 
+.sec-contact a {
+  text-decoration: underline;
+  color: black;
+}
+
+.sec-contact a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: lightgray;
+}
+
+.sec-contact a:visited {
+  color: black;
+}
+
 .soc-media-ul a{
   color :white;
   padding: 0px 5px 0px 5px;

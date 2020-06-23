@@ -137,11 +137,13 @@ p {
   display: block;
   align-content: center;
   text-align: center;
+  padding: 2px 0px 2px 0px;
 }
 
 .contact-heading {
   font-size: 15px;
   font-weight: bold;
+  padding: 8px 0px 2px 0px;
 }
 
 .sec-contact a {

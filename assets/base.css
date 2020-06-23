@@ -75,7 +75,6 @@ body {
   color: cornflowerblue;
   text-decoration: none;
   text-align: center;
-  display: block;
   float: center;
   display: flex;
   padding: 2px 4px 0px 4px;
@@ -115,10 +114,19 @@ p {
   color: black;
 }
 
+.sec-contact ul {
+  display: block;
+}
+
+.contact-heading{
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .soc-media-ul a{
   color :white;
   padding: 0px 5px 0px 5px;
-  size: 15px;
+  font-size: 15px;
   text-decoration: none;
 }
 

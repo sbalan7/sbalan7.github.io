@@ -119,10 +119,12 @@ p {
   color :white;
   padding: 0px 5px 0px 5px;
   size: 15px;
+  text-decoration: none;
 }
 
 .soc-media-ul a:visited{
   color: white;
+  text-decoration: none;
 }
 
 section {

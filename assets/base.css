@@ -101,6 +101,7 @@ p {
 
 .row {
   align-content: center;
+  text-align: center;
 }
 
 .sec-about a {
@@ -120,17 +121,20 @@ p {
 
 .sec-contact {
   align-content: center;
+  text-align: center;
 }
 
 .sec-contact ul {
   display: block;
   align-self: center;
   align-content: center;
+  text-align: center;
 }
 
 .sec-contact li {
   display: block;
   align-content: center;
+  text-align: center;
 }
 
 .contact-heading{

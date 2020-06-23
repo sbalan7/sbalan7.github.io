@@ -2,9 +2,13 @@
  .courses-list {
      font-size: 18px;
      font-weight: 500;
+     display: block;
+     list-style: inside;
+     padding: 5px 0px 5px 0px;
  }
 
  .inner-courses-list {
      font-size: 16px;
      font-weight: 400;
+     margin: 3px 0px 3px 0px;
  }

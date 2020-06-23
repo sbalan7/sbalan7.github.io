@@ -114,6 +114,10 @@ p {
   color: black;
 }
 
+.sec-contact {
+  align-content: center;
+}
+
 .sec-contact ul {
   display: block;
   align-self: center;
@@ -191,4 +195,5 @@ hr {
 
 footer {
   background: #000;
+  width: 100%;
 }

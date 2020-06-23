@@ -118,6 +118,10 @@ p {
   display: block;
 }
 
+.sec-contact li {
+  display: block;
+}
+
 .contact-heading{
   font-size: 15px;
   font-weight: bold;

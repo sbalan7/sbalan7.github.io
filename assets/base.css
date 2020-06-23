@@ -99,6 +99,10 @@ p {
   line-height: 1.5;
 }
 
+.row {
+  align-content: center;
+}
+
 .sec-about a {
   text-decoration: underline;
   color: black;

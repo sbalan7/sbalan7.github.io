@@ -25,3 +25,24 @@
     display: block;
     list-style: inside;
  }
+
+ .notes-list ul {
+    display: block;
+    list-style: inside;
+}
+
+.notes-list a {
+  text-decoration: underline;
+  color: black;
+}
+
+.notes-list a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: lightgray;
+}
+
+.notes-list a:visited {
+  color: black;
+}
+

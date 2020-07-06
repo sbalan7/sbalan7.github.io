@@ -207,7 +207,7 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg) no-repeat center;
+  background: url(/assets/images/background.jpg) no-repeat center;
   z-index: -100;
 }
 

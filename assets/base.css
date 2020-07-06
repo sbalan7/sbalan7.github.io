@@ -207,7 +207,7 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url(/assets/images/background.jpg) no-repeat center;
+  background: url(/assets/images/background.jpg) no-repeat;
   z-index: -100;
 }
 

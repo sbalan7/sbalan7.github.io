@@ -1,112 +1,98 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
     <meta charset="utf-8">
-    <title>Shanmugha Balan | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link href="/assets/base.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/assets/assets.css" media="screen" rel="stylesheet" type="text/css" />
-  </head>
+	<title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <body>
-    <div class="wrapper">
-      <header role="header">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="navigator">
-			      <div class="roof-navbar">
-              <ul class="nav navbar-nav navbar-right js-nav">
-                <li><a href="../index.html#home">Home</a></li>
-                <li><a href="../index.html#about">About</a></li>
-                <li><a href="/assets/courses.html">Courses</a></li>
-                <!--<li><a href="/assets/projects.html">Projects</a></li>-->
-                <li><a href="/assets/notes.html">Notes</a></li>
-                <li><a href="../index.html#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-      <div class="courses">
-        <div>
-          <h2>University Courses</h2>
-          <ul class="courses-list">
-            <li>CS F111 : Computer Programming</li>
-            <li>MATH F111 : Mathematics I (Multivariable Calculus)</li>
-            <li>MATH F112 : Mathematics II (Linear Algebra & Complex Analysis)</li>
-            <li>MATH F113 : Probability & Statistics</li>
-            <li>MATH F211 : Mathematics III (Differential Equations)</li>
-            <li>HSS F323 : Organizational Psychology</li>
+	<!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/media-queries.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+    <!-- Header
+    ================================================== -->
+     <header id="home">
+ 
+       <nav id="nav-wrap">
+ 
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+           <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+ 
+          <ul id="nav" class="nav">
+             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+             <li><a class="smoothscroll" href="#about">About</a></li>
+               <li><a class="smoothscroll" href="#projects">Projects</a></li>
+             <li><a class="smoothscroll" href="#skills">Skills</a></li>
+             <li><a class="smoothscroll" href="#contact">Contact</a></li>
+          </ul> <!-- end #nav -->
+ 
+       </nav> <!-- end #nav-wrap -->
+    </header>
+
+       <!-- footer
+   ================================================== -->
+   <footer>
+
+    <div class="row">
+
+       <div class="twelve columns">
+
+          <ul class="social-links">
+             <li><a href="https://github.com/sbalan7"><i class="fa fa-github"></i></a></li>
+             <li><a href="https://www.linkedin.com/in/sbalan7/"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="https://www.instagram.com/balance_to_the_force/"><i class="fa fa-instagram"></i></a></li>
           </ul>
-        </div>
-        <div>
-          <h2>Massive Open Online Courses</h2>
-          <ul class="courses-list">
-            <li>
-              Deep Learning Specialization by deeplearning.ai, Coursera
-              <ul class="inner-courses-list">
-                <li></li>
-                <li>Neural Networks and Deep Learning</li>
-                <li>Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</li>
-                <li>Structuring Machine Learning Projects</li>
-                <li>Convolutional Neural Networks</li>
-                <li>Sequence Models</li>
-              </ul>
-            </li>
-            <li>
-              TensorFlow in Practice Specialization by deeplearning.ai, Coursera
-              <ul class="inner-courses-list">
-                <li></li>
-                <li>Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</li>
-                <li>Convolutional Neural Networks in TensorFlow*</li>
-                <li>Natural Language Processing in TensorFlow</li>
-                <li>Sequences, Time Series and Prediction</li>
-              </ul>
-            </li>
-            <li>
-              Applied Data Science with Python Specialization by University of Michigan, Coursera
-              <ul class="inner-courses-list">
-                <li></li>
-                <li>Introduction to Data Science in Python</li>
-                <li>Applied Plotting, Charting & Data Representation in Python</li>
-                <li>Applied Machine Learning in Python</li>
-                <li>Applied Text Mining in Python*</li>
-                <li>Applied Social Network Analysis in Python</li>
-              </ul>
-            </li>
-            <li>Introduction to Programming with MATLAB by Vanderbilt University, Coursera</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Audited Courses</h2>
-          <ul class="courses-list">
-            <li>MIT 6.S191 : Introduction to Deep Learning</li>
-            <li>CS231n : Convolutional Neural Networks for Visual Recognition, Stanford Online</li>
-            <li></li>
-          </ul>
-        </div>
-        * Course completed without Certification
-        ^ Ongoing course
-      </div>
 
-      <footer id="footer">
-        <div class="navigator">
-          <ul class="soc-media-ul">
-            <li>
-              <a href="https://github.com/sbalan7"><img src="/assets/images/github.png" width="30" height="30"></a>
-            </li>
-
-            <li>
-              <a href="https://www.linkedin.com/in/sbalan7/"><img src="/assets/images/linkedin.png" width="30" height="30"></a>
-            </li>
-
-            <li>
-              <a href="mailto:f20190571@pilani.bits-pilani.ac.in"><img src="/assets/images/envelope.png" width="30" height="30"></a>
-            </li>
+          <ul class="copyright">
+             <li>&copy; Copyright 2014 CeeVee</li>
+             <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
           </ul>
-        </div>
-      </footer>
+
+       </div>
+
+       <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
     </div>
-  </body>
+
+ </footer> <!-- Footer End-->
+
+ <!-- Java Script
+ ================================================== -->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+ <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+ <script src="js/jquery.flexslider.js"></script>
+ <script src="js/waypoints.js"></script>
+ <script src="js/jquery.fittext.js"></script>
+ <script src="js/magnific-popup.js"></script>
+ <script src="js/init.js"></script>
+
+</body>
+
 </html>

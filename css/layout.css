@@ -232,7 +232,7 @@ ul#nav li.current a { color: #F06000; }
 /* d. Projects Section
 /* ------------------------------------------------------------------ */
 
-#projects {
+#projects, #skills {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
@@ -242,12 +242,12 @@ ul#nav li.current a { color: #F06000; }
 #projects a, #projects a:visited  { color: #11ABB0; }
 #projects a:hover, #projects a:focus { color: #313131; }
 
-#projects h1 {
+#projects h1, #skills h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#projects h1 span {
+#projects h1 span , #skills h1 span{
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
@@ -403,6 +403,62 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
+/* ------------------------------------------------------------------ */
+/* f. Call To Action Section
+/* ------------------------------------------------------------------ */
+
+#call-to-action {
+   background: #212121;
+   padding-top: 66px;
+   padding-bottom: 48px;
+}
+#call-to-action h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#call-to-action h1 span { display: none; }
+#call-to-action .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0ac";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+#call-to-action .action {
+   margin-top: 12px;
+}
+#call-to-action h2 {
+   font: 28px/36px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#call-to-action h2 a {
+   color: inherit;
+}
+#call-to-action p {
+   color: #636363;
+   font-size: 17px;
+}
+/*#
+call-to-action .button {
+	color:#fff;
+   background: #0D0D0D;
+}
+*/
+#call-to-action .button:hover,
+#call-to-action .button:active {
+   background: #FFFFFF;
+   color: #0D0D0D;
+}
+#call-to-action p span {
+	font-family: 'opensans-semibold', sans-serif; 
+	color: #D8D8D8;
+}
 
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
@@ -412,7 +468,7 @@ ul#nav li.current a { color: #F06000; }
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #A3A3A3;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -426,6 +482,13 @@ ul#nav li.current a { color: #F06000; }
    color: #EBEEEE;
    margin-bottom: 6px;
 }
+
+#contact h2 {
+   font: 28px/36px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+
 #contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
@@ -449,11 +512,11 @@ ul#nav li.current a { color: #F06000; }
 }
 #contact .header-col { padding-top: 6px; }
 
-
-/* contact form */
+/*
+/* contact form *
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 12px/20px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
@@ -463,13 +526,13 @@ ul#nav li.current a { color: #F06000; }
 #contact input,
 #contact textarea,
 #contact select {
-   padding: 18px 20px;
+   padding: 12px 16px;
 	color: #eee;
 	background: #373233;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
-   font-size: 15px;
+   font-size: 12px;
    line-height: 24px;
    width: 65%;
 }
@@ -520,26 +583,7 @@ ul#nav li.current a { color: #F06000; }
    left: 18px;
    top: 17px;
 }
-
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
+*/
 
 /* ------------------------------------------------------------------ */
 /* i. Footer

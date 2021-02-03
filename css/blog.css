@@ -43,5 +43,8 @@ body {
        padding-top: 20px;
        padding-bottom: 20px;
        padding-right: 40%;
-       color: #e3e3e3;
+   }
+
+   .encompass p {
+    color: #e3e3e3;
    }

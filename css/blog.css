@@ -1,8 +1,7 @@
 body {
     font-family: 'opensans-regular', sans-serif;
     padding: 20px;
-    background: #1f1f1f;
-    color: #f1f1f1;
+    color: #363535;
   }
 
   h2 {
@@ -26,7 +25,7 @@ body {
   
   /* Add a card effect for articles */
   .card {
-    background-color: #5f5f5f;
+    background-color: #b4afaf;
     padding: 20px;
     margin-top: 20px;
   }

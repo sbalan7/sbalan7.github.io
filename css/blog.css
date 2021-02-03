@@ -21,6 +21,7 @@ body {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+    height: auto;
   }
   
   /* Add a card effect for articles */

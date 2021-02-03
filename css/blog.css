@@ -1,11 +1,11 @@
 body {
     font-family: 'opensans-regular', sans-serif;
     padding: 20px;
-    color: #363535;
+    color: #e6e6e6;
   }
 
-  h2 {
-      color: #ffffff;
+  h2, h5 {
+      color: #eee;
       size: 30px;
   }
   
@@ -26,7 +26,7 @@ body {
   
   /* Add a card effect for articles */
   .card {
-    background-color: #b4afaf;
+    background-color: #4b4b4b;
     padding: 20px;
     margin-top: 20px;
   }

@@ -19,7 +19,7 @@ body {
   /* Fake image */
   .fakeimg {
     background-color: #777;
-    opacity: 0.7;
+    opacity: 1;
     width: 100%;
     padding: 20px;
     height: auto;

@@ -230,7 +230,7 @@ ul#nav li.current a { color: #F06000; }
 /* d. Projects Section
 /* ------------------------------------------------------------------ */
 
-#projects, #skills {
+#projects {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;

@@ -4,7 +4,7 @@ body {
     color: #e6e6e6;
   }
 
-  h2 {
+  h2, h5 {
       color: #e7e7e7;
   }
   
@@ -24,7 +24,6 @@ body {
     height: auto;
     margin-top: 1em;
     margin-bottom: 1em;
-    border-bottom: 5px solid #e6e6e6;
   }
   
   /* Add a card effect for articles */
@@ -32,6 +31,11 @@ body {
     padding: 20px;
     opacity: 1;
     margin-top: 20px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .card p {
+    padding: 15px;
   }
   
   /* Clear floats after the columns */

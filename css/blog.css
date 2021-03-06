@@ -26,6 +26,12 @@ body {
     margin-bottom: 1em;
   }
   
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   /* Add a card effect for articles */
   .card {
     padding: 20px;

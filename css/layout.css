@@ -294,6 +294,11 @@ ul#nav li.current a { color: #F06000; }
 	text-align: left;
 }
 
+.bars h2 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #11ABB0;
+}
+
 .bars h3 {
    font: 18px;
 }

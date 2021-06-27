@@ -287,11 +287,6 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
-.skill-div {
-   font: 24px 'opensans';
-   color: #2B2B2B;
-}
-
 .skill-list {
    padding: 5px 5px 5px 5px;
 }

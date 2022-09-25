@@ -283,6 +283,11 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+.beelu {
+   font: 16px 'opensans-bold', sans-serif;
+   font-style: italic;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

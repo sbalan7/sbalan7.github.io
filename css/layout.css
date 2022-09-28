@@ -114,6 +114,11 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+.logo_img {
+   height: 20px;
+   width: 20px;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
